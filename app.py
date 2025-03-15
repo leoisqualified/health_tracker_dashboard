@@ -7,6 +7,7 @@ app.config['SECRET_KEY'] = 'virginia'
 
 app.config['SQLALCHEMY_DATABSE_URI'] = 'sqlite://health_tracker.db' 
 app.config['SQLALCHEMY_TRACKBACK_MODIFICATIONS'] = False
+
 #Home Route
 @app.route('/')
 def home():
